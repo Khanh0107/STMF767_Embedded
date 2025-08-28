@@ -26,7 +26,7 @@
 
 - **Create mapping in Altium STM32F7 vs TC1602A-01T**
 
-# Step to init LCD 
+## Step to init LCD 
 
 - The initial procedure
 
