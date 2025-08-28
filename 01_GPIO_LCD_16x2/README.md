@@ -4,5 +4,5 @@
 - This setup allows displaying text, numbers, and basic symbols on the LCD without the need for additional communication modules like I²C or SPI.
 - Data sheet of LCD : [Data sheet](https://cdn-shop.adafruit.com/datasheets/TC1602A-01T.pdf)
 
-- 
-# 
+
+# 2. Hardware connection
