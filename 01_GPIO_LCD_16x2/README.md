@@ -6,7 +6,7 @@
 - Create LCD  library 
 
 # 2. Hardware connection
-| LCD Pin | Chức năng       | STM32 Pin (ví dụ) |
+| LCD Pin | Chức năng       | STM32 Pin  |
 |---------|-----------------|-------------------|
 | VSS     | GND             | GND               |
 | VDD     | +5V             | 5V                |
@@ -24,8 +24,6 @@
 | D7      | Data Bit 7      | PA7               |
 | A/K     | LED Backlight   | +5V / GND         |
 
-- **Create mapping in Altium STM32F7 vs TC1602A-01T**
-
 ## Step to init LCD 
 
 - The initial procedure
@@ -35,7 +33,6 @@
 
 - Write timing diagram
 
-<img width="632" height="616" alt="image" src="https://github.com/user-attachments/assets/0e40c226-f272-447a-92ed-021ff4e6122d" />
-
+<img width="866" height="674" alt="image" src="https://github.com/user-attachments/assets/a8cf1c40-26ab-457c-9963-55e1c25e6ff6" />
 
 - The commands for HD44780 chip in this [HD44780](http://www.dinceraydin.com/lcd/commands.htm)
