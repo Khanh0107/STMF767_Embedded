@@ -1,1 +1,3 @@
-1. STMF767_embedded
+- Datasheet: [link](https://www.alldatasheet.com/datasheet-pdf/pdf/933989/STMICROELECTRONICS/STM32F767ZI.html)
+- Reference manual: [link](https://www.st.com/resource/en/reference_manual/rm0410-stm32f76xxx-and-stm32f77xxx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
+- User manual: [link](https://www.st.com/resource/en/user_manual/um1974-stm32-nucleo144-boards-mb1137-stmicroelectronics.pdf)
