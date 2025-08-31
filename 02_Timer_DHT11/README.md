@@ -79,3 +79,7 @@ data + 8bit check sum. If the data transmission is right, the check-sum should b
 
 <img width="755" height="363" alt="image" src="https://github.com/user-attachments/assets/e3913b7f-cb0b-4dd9-a0f0-612ff7feba1f" />
 
+# 3. Output
+
+<img width="494" height="144" alt="image" src="https://github.com/user-attachments/assets/0cba8cb1-2bb5-4903-b216-0a650a00df30" />
+
