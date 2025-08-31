@@ -26,10 +26,9 @@
     $f_\text{timer counter} = \frac{f_\text{timer clock}}{PSC + 1}$
 
 **Auto-Reload Register (ARR)**
-
 - The auto-reload register (ARR) defines the maximum value the timer counter will count up to before it resets.
-  
-	​
+
+
 **Counter Register (CNT)**
 
 - The counter register (CNT) stores the current count value of the timer.
