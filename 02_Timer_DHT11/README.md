@@ -28,6 +28,7 @@
 **Auto-Reload Register (ARR)**
 
 - The auto-reload register (ARR) defines the maximum value the timer counter will count up to before it resets.
+  
 	​
 **Counter Register (CNT)**
 
