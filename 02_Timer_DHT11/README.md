@@ -18,7 +18,7 @@
 
 - The timer clock is the clock source that feeds a specific timer peripheral.
 
-**Prescaler (PSC)**
+**Prescaler Register (PSC)**
 
 - The prescaler slows down the timer clock to achieve the desired timing resolution.
 - Formula:
