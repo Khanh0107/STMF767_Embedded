@@ -44,7 +44,7 @@
 
 ## 2.2 Hardware connection
 
-![alt text](image-4.png)
+<img width="622" height="427" alt="image" src="https://github.com/user-attachments/assets/780cb42d-1aaf-4bb5-b1b5-dfa74af54700" />
 
 | DHT11 Pin | Chức năng       | STM32 Pin  |
 |---------|-----------------|-------------------|
@@ -63,18 +63,19 @@ data + 8bit check sum. If the data transmission is right, the check-sum should b
 
 **Overall communication**
 
-![alt text](image-5.png)
+<img width="832" height="280" alt="image" src="https://github.com/user-attachments/assets/d00794b4-458e-47e7-8367-7384ce179b84" />
 
 **MCU Sends out Start Signal to DHT**
 
-![alt text](image-6.png)
+<img width="760" height="265" alt="image" src="https://github.com/user-attachments/assets/a8d3479b-81f9-4741-92f0-8040b58dc461" />
 
 **DHT Responses to MCU**
 
 - If bit data = 0
 
-![alt text](image-7.png)
+<img width="750" height="410" alt="image" src="https://github.com/user-attachments/assets/28a581b1-941c-4f25-ad6f-33836c078c00" />
 
 - If bit data = 1
 
-![alt text](image-8.png)
+<img width="755" height="363" alt="image" src="https://github.com/user-attachments/assets/e3913b7f-cb0b-4dd9-a0f0-612ff7feba1f" />
+
