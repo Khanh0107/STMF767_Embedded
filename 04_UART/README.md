@@ -71,8 +71,15 @@ The communication is **asynchronous**, meaning it does not require a clock line.
 | GND    | Ground        | GND |
 | LED +-    | On off led        | PA4/ GND |
 
+- Configure in STMcube
+- 
+<img width="688" height="592" alt="image" src="https://github.com/user-attachments/assets/19a2aae2-fa2d-4e46-b193-27c8d7daf1c5" />
+
+<img width="692" height="43" alt="image" src="https://github.com/user-attachments/assets/49d3e36b-c3d8-4272-96d9-1308f20ca5f5" />
+
 **Output**
 - Press a then Led ON
+- 
   <img width="623" height="537" alt="image" src="https://github.com/user-attachments/assets/ef8508ea-4268-406e-b1d7-67918c2b91c2" />
 
 - eles Led off
