@@ -64,6 +64,21 @@ The communication is **asynchronous**, meaning it does not require a clock line.
 
 ## 2.1. Hardware connenection
 
+| CH340 Driver  | Function       | STM32 Pin  |
+|---------|-----------------|-------------------|
+| TX     | Transmit and receive data               | PA2/RX               |
+| RX     | Transmit and receive data            | PA3/TX                |
+| GND    | Ground        | GND |
+| LED +-    | On off led        | PA4/ GND |
+
+**Output**
+- Press a then Led ON
+  <img width="623" height="537" alt="image" src="https://github.com/user-attachments/assets/ef8508ea-4268-406e-b1d7-67918c2b91c2" />
+
+- eles Led off
+
+
+
 
 
 
