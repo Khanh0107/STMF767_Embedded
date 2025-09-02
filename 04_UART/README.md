@@ -24,10 +24,10 @@ The communication is **asynchronous**, meaning it does not require a clock line.
 
 | Parameter | Description |
 |------------|-------------|
-| **Baud Rate** | Speed of data transmission (bits per second) |
-| **Data Frame** | Usually 8 bits, but can be 5–9 bits |
-| **Parity** | Error detection method: None, Even, or Odd |
-| **Stop Bits** | 1 or 2 bits marking the end of a frame |
+| **Start Bit** | transmitting UART pulls the transmission line from high to low for one (1) clock cycle |
+| **Data Frame** | It can be five (5) bits up to eight (8) bits long if a parity bit is used. If no parity bit is used, the data frame can be nine (9) bits long |
+| **Parity** | After the receiving UART reads the data frame, it counts the number of bits with a value of 1 and checks if the total is an even or odd number. If the parity bit is a 0 (even parity), the 1 or logic-high bit in the data frame should total to an even number. If the parity bit is a 1 (odd parity), the 1 bit or logic highs in the data frame should total to an odd number. |
+| **Stop Bits** |the sending UART drives the data transmission line from a low voltage to a high voltage for one (1) to two (2) bit(s) duration. |
 
 **Basic data frame structure**
 <img width="800" height="203" alt="image" src="https://github.com/user-attachments/assets/e1e6e1b2-940e-48c5-9bf0-a4836b3840ce" />
