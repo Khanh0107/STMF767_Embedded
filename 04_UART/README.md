@@ -1,10 +1,10 @@
 # 1. UART (Universal Asynchronous Receiver/Transmitter)
 
 ## 1.1 What is UART?
-- UART (Universal Asynchronous Receiver/Transmitter) is a hardware communication protocol used for serial communication between two devices. It is widely used in embedded systems, microcontrollers, and computers to exchange data without the need for a clock signal.
-- UART is half-duplex, meaning that data can only be transmitted in one direction at a time.
-- UART is a serial protocol, meaning that data is transmitted one bit at a time in a sequential stream.
-- UART is asynchronous, and its speed (Baud Rate) is the rate at which data is transmitted, measured in bits per second. Common baud rates are 9600, 115200, etc.
+- UART (**Universal Asynchronous Receiver/Transmitter**) is a hardware communication protocol used for serial communication between two devices. It is widely used in embedded systems, microcontrollers, and computers to exchange data without the need for a clock signal.
+- UART is **half-duplex**, meaning that data can only be transmitted in one direction at a time.
+- UART is a **serial** protocol, meaning that data is transmitted one bit at a time in a sequential stream.
+- UART is **asynchronous**, and its speed (Baud Rate) is the rate at which data is transmitted, measured in bits per second. Common baud rates are 9600, 115200, etc.
 ---
 
 ## 1.2. How UART Works
