@@ -64,7 +64,21 @@ HAL_I2C_Mem_Read(&hi2c1, 0x68<<1, 0x75, 1, &check, 1, 1000);
 
 <img width="1372" height="235" alt="image" src="https://github.com/user-attachments/assets/07c26391-e9cc-4cbf-b5b7-b622c1912e1d" />
 
+## 4. Practice with MPU6050 
 
+### 4.1 What is MPU6050
 
+- 6-DOF (Degrees of Freedom) IMU sensor:
+  - 3-axis accelerometer → measures acceleration (X, Y, Z).
+  - 3-axis gyroscope → measures angular velocity (rotation rate around X, Y, Z).
 
+### 4.2 Set up
 
+| MPU 6050  | Function       | STM32 Pin  |
+|---------|-----------------|-------------------|
+| SDA     | Data line              | PB7               |
+| SCL     | Clock           | PB6                |
+| GND    | Ground        | GND |
+| VCC    | VCC        | 3.3V |
+
+<img width="1053" height="725" alt="image" src="https://github.com/user-attachments/assets/d0e9c040-13e9-486b-80c9-eba499db8e45" />
