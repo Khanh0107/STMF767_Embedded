@@ -81,4 +81,13 @@ HAL_I2C_Mem_Read(&hi2c1, 0x68<<1, 0x75, 1, &check, 1, 1000);
 | GND    | Ground        | GND |
 | VCC    | VCC        | 3.3V |
 
-<img width="1053" height="725" alt="image" src="https://github.com/user-attachments/assets/d0e9c040-13e9-486b-80c9-eba499db8e45" />
+<img width="1058" height="754" alt="image" src="https://github.com/user-attachments/assets/4cd46b30-906a-4e9a-8235-605bd45159f7" />
+
+**Output**
+
+- when the sensor is parallel to the ground
+
+<img width="493" height="209" alt="image" src="https://github.com/user-attachments/assets/db520b56-cf48-45e5-941c-c50f33add98d" />
+
+
+
