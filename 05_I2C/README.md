@@ -56,6 +56,15 @@ Step 6: Slave sends back the **data byte(s)** from the register specified in Ste
   - For the **last byte**, master sends **NACK** to tell the slave to stop sending.
 Step 7: Master sends a **STOP condition**.
 
+Example : Read data register 0x75 of MPU6050 have address 0x68
+
+```c
+HAL_I2C_Mem_Read(&hi2c1, 0x68<<1, 0x75, 1, &check, 1, 1000);
+```
+
+<img width="1372" height="235" alt="image" src="https://github.com/user-attachments/assets/07c26391-e9cc-4cbf-b5b7-b622c1912e1d" />
+
+
 
 
 
