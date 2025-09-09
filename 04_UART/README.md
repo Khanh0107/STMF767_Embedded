@@ -38,6 +38,7 @@ The communication is **asynchronous**, meaning it does not require a clock line.
 | **Stop Bits** |the sending UART drives the data transmission line from a low voltage to a high voltage for one (1) to two (2) bit(s) duration. |
 
 **Basic data frame structure**
+
 <img width="800" height="203" alt="image" src="https://github.com/user-attachments/assets/e1e6e1b2-940e-48c5-9bf0-a4836b3840ce" />
 
 <img width="1296" height="128" alt="image" src="https://github.com/user-attachments/assets/4f2eb599-d40e-4000-b929-aa74b3f6c2c9" />
