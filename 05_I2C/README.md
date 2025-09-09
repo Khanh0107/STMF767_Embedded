@@ -46,15 +46,15 @@ HAL_I2C_Mem_Write(&hi2c1, 0x68<<1, 0x6B, 1, &mData, 1, 1000);
 
 ### 3.2 Read steps
 
-Step 1: Master sends a **START condition**.
-Step 2: Master sends the **7-bit slave address** followed by the **Write bit (0)**.
-Step 3: Master sends the **register address** (the location inside the slave to read from).
-Step 4: Master sends a **Repeated START condition**.
-Step 5: Master sends the **7-bit slave address** again, but this time followed by the **Read bit (1)**.
-Step 6: Slave sends back the **data byte(s)** from the register specified in Step 3, and the master reads them.
+- Step 1: Master sends a **START condition**.
+- Step 2: Master sends the **7-bit slave address** followed by the **Write bit (0)**.
+- Step 3: Master sends the **register address** (the location inside the slave to read from).
+- Step 4: Master sends a **Repeated START condition**.
+- Step 5: Master sends the **7-bit slave address** again, but this time followed by the **Read bit (1)**.
+- Step 6: Slave sends back the **data byte(s)** from the register specified in Step 3, and the master reads them.
   - Master usually sends **ACK** after each byte if it wants to continue reading.
   - For the **last byte**, master sends **NACK** to tell the slave to stop sending.
-Step 7: Master sends a **STOP condition**.
+- Step 7: Master sends a **STOP condition**.
 
 Example : Read data register 0x75 of MPU6050 have address 0x68
 
