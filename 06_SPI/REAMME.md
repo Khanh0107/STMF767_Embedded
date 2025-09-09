@@ -69,13 +69,26 @@ SPI supports **4 modes**, determined by:
 
 ## 2. Practice with LCD TFT RGB 240x320 ILI9341
 
-## 2.1. What is LCD TFT RGB 240x320 ILI9341
+### 2.1. What is LCD TFT RGB 240x320 ILI9341
 
 - LCD → Liquid Crystal Display, a display technology using liquid crystals and a backlight.
 - TFT → Thin-Film Transistor, a type of LCD that uses active matrix technology for better color, contrast, and refresh speed compared to simple passive LCDs.
 - Each pixel = 3 sub-pixels (R + G + B). Red, Green, Blue sub-pixels combine to produce full-color images (commonly 16-bit RGB565 or 18-bit RGB666)
 
-## 2.2. Set up
+### 2.2. Set up
+
+| LCD  | Function       | STM32 Pin  |
+|---------|-----------------|-------------------|
+| CS     | Chip select              | PA4               |
+| RESET     | Clock           | PA0                |
+| GND    | Ground        | GND |
+| VCC    | VCC        | 5V |
+| DC     | Data or command           | PA2               |
+| MOSI    | Ground        | PA7 |
+| SCK    | Clock        | PA5 |
+| LED    | Back light        | 3.3V |
+
+
 
 
 
