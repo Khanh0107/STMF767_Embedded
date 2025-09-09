@@ -73,7 +73,8 @@ SPI supports **4 modes**, determined by:
 - LCD → Liquid Crystal Display, a display technology using liquid crystals and a backlight.
 - TFT → Thin-Film Transistor, a type of LCD that uses active matrix technology for better color, contrast, and refresh speed compared to simple passive LCDs.
 - Each pixel = 3 sub-pixels (R + G + B). Red, Green, Blue sub-pixels combine to produce full-color images (commonly 16-bit RGB565 or 18-bit RGB666)
-
+- [Datasheet](https://www.alldatasheet.com/datasheet-pdf/view/1131760/ETC2/ILI9341.html)
+  
 ### 2.2. Set up
 
 | LCD  | Function       | STM32 Pin  |
