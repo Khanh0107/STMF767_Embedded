@@ -1,9 +1,9 @@
-# 1. SPI (Serial Peripheral Interface)
+# SPI (Serial Peripheral Interface)
 
-## 1.1. What is SPI
+## 1. What is SPI
 - SPI is a synchronous serial communication protocol commonly used in embedded systems to connect microcontrollers with peripherals such as sensors, displays, memory chips, and ADC/DAC converters.
 
-## 1.2. Key Features
+## 2. Key Features
 - **Synchronous** → Uses a clock signal for synchronization.
 - **Full-duplex** → Data is transmitted and received simultaneously.
 - **High speed** → Typically faster than I²C and UART.
@@ -12,7 +12,7 @@
 
 ---
 
-## 1.3. SPI Signals
+## 3. SPI Signals
 SPI uses **four main lines**:
 
 | Signal | Direction | Description |
@@ -28,7 +28,7 @@ SPI uses **four main lines**:
 
 ---
 
-## 1.4. How SPI Works
+## 4. How SPI Works
 
 - Step 1. The master pulls **CS** low to select a slave.
 - Step 2. The master generates clock pulses on **SCLK**.
@@ -65,7 +65,9 @@ SPI supports **4 modes**, determined by:
 
 <img width="778" height="375" alt="image" src="https://github.com/user-attachments/assets/f987e58e-887f-47c3-a5f2-8358b27b5a8c" />
 
-# 6. Practice with LCD TFT RGB 240x320 ILI9341
+## 6. Practice with LCD TFT RGB 240x320 ILI9341
+
+
 
 
 
