@@ -72,7 +72,7 @@ HAL_I2C_Mem_Read(&hi2c1, 0x68<<1, 0x75, 1, &check, 1, 1000);
   - 3-axis accelerometer → measures acceleration (X, Y, Z).
   - 3-axis gyroscope → measures angular velocity (rotation rate around X, Y, Z).
 
-### 4.2 Set up
+### 4.2. Set up
 
 | MPU 6050  | Function       | STM32 Pin  |
 |---------|-----------------|-------------------|
@@ -83,7 +83,7 @@ HAL_I2C_Mem_Read(&hi2c1, 0x68<<1, 0x75, 1, &check, 1, 1000);
 
 <img width="1058" height="754" alt="image" src="https://github.com/user-attachments/assets/4cd46b30-906a-4e9a-8235-605bd45159f7" />
 
-**Output**
+### 4.3. Output
 
 - when the sensor is parallel to the ground
 
