@@ -3,7 +3,7 @@
 ## 1. What is SPI
 - SPI is a synchronous serial communication protocol commonly used in embedded systems to connect microcontrollers with peripherals such as sensors, displays, memory chips, and ADC/DAC converters.
 
-## 2. Key Features
+### 1.1 Key Features
 - **Synchronous** → Uses a clock signal for synchronization.
 - **Full-duplex** → Data is transmitted and received simultaneously.
 - **High speed** → Typically faster than I²C and UART.
@@ -12,7 +12,7 @@
 
 ---
 
-## 3. SPI Signals
+### 1.2. SPI Signals
 SPI uses **four main lines**:
 
 | Signal | Direction | Description |
@@ -28,7 +28,7 @@ SPI uses **four main lines**:
 
 ---
 
-## 4. How SPI Works
+## 1.3. How SPI Works
 
 - Step 1. The master pulls **CS** low to select a slave.
 - Step 2. The master generates clock pulses on **SCLK**.
@@ -52,7 +52,7 @@ SPI uses **four main lines**:
 
 ---
 
-## 5. Clock Polarity & Phase
+## 1.4. Clock Polarity & Phase
 SPI supports **4 modes**, determined by:
 
 - **CPOL**: Clock polarity (idle state of the clock).
@@ -67,7 +67,7 @@ SPI supports **4 modes**, determined by:
 
 <img width="778" height="375" alt="image" src="https://github.com/user-attachments/assets/f987e58e-887f-47c3-a5f2-8358b27b5a8c" />
 
-# 2. Practice with LCD TFT RGB 240x320 ILI9341
+## 2. Practice with LCD TFT RGB 240x320 ILI9341
 
 ## 2.1. What is LCD TFT RGB 240x320 ILI9341
 
@@ -75,7 +75,7 @@ SPI supports **4 modes**, determined by:
 - TFT → Thin-Film Transistor, a type of LCD that uses active matrix technology for better color, contrast, and refresh speed compared to simple passive LCDs.
 - Each pixel = 3 sub-pixels (R + G + B). Red, Green, Blue sub-pixels combine to produce full-color images (commonly 16-bit RGB565 or 18-bit RGB666)
 
-## 2.2. Hardware connection
+## 2.2. Set up
 
 
 
