@@ -40,7 +40,9 @@ SPI uses **four main lines**:
 
 <img width="399" height="210" alt="image" src="https://github.com/user-attachments/assets/5adeeb8b-3e7b-4782-943d-8d4e6c39dd29" />
 
-**Example simualte**
+---
+
+**Example simulate**
 
 <img width="515" height="619" alt="image" src="https://github.com/user-attachments/assets/0eec5524-e9cb-4717-a32a-b802d0767663" />
 
@@ -74,6 +76,8 @@ SPI supports **4 modes**, determined by:
 - Each pixel = 3 sub-pixels (R + G + B). Red, Green, Blue sub-pixels combine to produce full-color images (commonly 16-bit RGB565 or 18-bit RGB666)
 
 ## 2.2. Hardware connection
+
+
 
 
 
