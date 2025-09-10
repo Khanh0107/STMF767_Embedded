@@ -54,3 +54,11 @@
 | Get state of task           | `osThreadState`        | `eTaskGetState`            |
 | List current tasks info     | `osThreadList`         | `vTaskList`                |
 | Delay task until time       | `osDelayUntil`         | `vTaskDelayUntil`          |
+
+## 5. Demo 
+
+### 5.1 Example 1: The task with higher priority runs first.
+
+- Task 1: priority 3, Task 2: priority 2
+- [Source code](Example_1/main.c) 
+  
