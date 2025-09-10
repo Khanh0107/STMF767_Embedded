@@ -62,7 +62,7 @@
 - Task 1: priority 3 OsDelay(1000)
 - Task 2: priority 2 OsDelay(1000)
 - [Source code](Example_1/main.c) 
-- Output:
+- Output: Task 1 always run before Task 2
 
 <img width="499" height="185" alt="image" src="https://github.com/user-attachments/assets/77ff4639-b851-4cc2-9970-c975260b3b48" />
 
@@ -71,10 +71,20 @@
 - Task 1: priority 3 
 - Task 2: priority 2 OsDelay(1000)
 - [Source code](Example_2/main.c) 
-- Output:
+- Output: Run Task 1 only
 
 <img width="385" height="233" alt="image" src="https://github.com/user-attachments/assets/6ffaa1bb-6ed1-4a02-b706-14cc707874c7" />
 
+### 5.3 See the states of the task
+
+- Task 1: priority 3 OsDelay(5000)
+- Task 2: priority 2 OsDelay(1000)
+- [Source code](Example_3/main.c) 
+- Output: See states of 2 task
+
+<img width="1036" height="147" alt="image" src="https://github.com/user-attachments/assets/317fd17d-bf04-413a-858c-1f4d5c67be23" />
+
+<img width="328" height="195" alt="image" src="https://github.com/user-attachments/assets/d3ef184a-36e8-4b1e-bad7-653ea830c8bc" />
 
 
 
