@@ -23,7 +23,7 @@
     - Function call info.
     - Return addresses.
 - **Task Stacks**
-    - PC (Program Counter) → where the task will resume.
+    - PC (Program Counter) → where the task will resume. FreeRTOS remembers exactly which line (instruction) the task was at. Later, the task continues exactly where it left off.
     - SP (Stack Pointer) → current top of the task’s stack.
     - CPU registers (R0, R1, …) → so the task can be paused and resumed later.
     - Task state (Ready, Blocked, Suspended, etc.).
