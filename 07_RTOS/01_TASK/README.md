@@ -59,6 +59,22 @@
 
 ### 5.1 Example 1: The task with higher priority runs first.
 
-- Task 1: priority 3, Task 2: priority 2
+- Task 1: priority 3 OsDelay(1000)
+- Task 2: priority 2 OsDelay(1000)
 - [Source code](Example_1/main.c) 
-  
+- Output:
+
+<img width="499" height="185" alt="image" src="https://github.com/user-attachments/assets/77ff4639-b851-4cc2-9970-c975260b3b48" />
+
+### 5.2. Example 2: If the one with higher priority is not blocked or stopped by some mechanism → it will always run → kernel
+
+- Task 1: priority 3 
+- Task 2: priority 2 OsDelay(1000)
+- [Source code](Example_2/main.c) 
+- Output:
+
+<img width="385" height="233" alt="image" src="https://github.com/user-attachments/assets/6ffaa1bb-6ed1-4a02-b706-14cc707874c7" />
+
+
+
+
