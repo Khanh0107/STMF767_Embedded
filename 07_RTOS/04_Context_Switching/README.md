@@ -84,7 +84,7 @@
 
 👉 CPU is now executing Task 2. Task 1 is fully paused but safe in TCB1.
 
-**Example **: pointer **pxCurrentTCB** in task 2
+**Example** :pointer **pxCurrentTCB** in task 2
 
 <img width="485" height="317" alt="image" src="https://github.com/user-attachments/assets/2e5bcaab-7a77-4395-8633-462d2927cd73" />
 
