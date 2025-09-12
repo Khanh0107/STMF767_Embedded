@@ -58,5 +58,34 @@
 
 <img width="751" height="404" alt="image" src="https://github.com/user-attachments/assets/16dcde99-6999-40b5-81a3-4fd0f020d4f8" />
 
+**Context Switch Triggered**
+
+- A SysTick/PendSV interrupt fires → RTOS needs to switch tasks.
+- Step 1: Save Task 1’s context
+  CPU pushes registers (R0–R12, LR, PC, xPSR) onto Task 1’s STACK1.
+  - RTOS saves Task 1’s SP and PC into TCB1.
+- Step 2: Load Task 2’s context
+  - RTOS reads Task 2’s saved SP and PC from TCB2.
+  - These values are loaded into CPU registers.
+
+👉 At this moment, CPU has “paused” Task 1 and is preparing to run Task 2.
+
 <img width="763" height="405" alt="image" src="https://github.com/user-attachments/assets/3954d235-819b-4c6e-adde-e4376e6d68eb" />
+
+**CPU running Task 2**
+
+- Task 2 code at address 0xAD200
+  -Local vars: e, f, g, h in STACK2 (e.g., e at 0xAC700).
+- CPU registers:
+  - PC = 0xAD200 → CPU now executing Task 2 instructions.
+  - SP = 0xAC700 → points to Task 2’s stack frame.
+- TCB2: updated with Task 2’s running state.
+- TCB1: still holding Task 1’s context (PC=0xAF20C, SP=0xAC800).
+
+👉 CPU is now executing Task 2. Task 1 is fully paused but safe in TCB1.
+
+**Example **: pointer **pxCurrentTCB** in task 2
+
+<img width="485" height="317" alt="image" src="https://github.com/user-attachments/assets/2e5bcaab-7a77-4395-8633-462d2927cd73" />
+
 
