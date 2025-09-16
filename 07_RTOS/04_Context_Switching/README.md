@@ -44,7 +44,7 @@
 
 <img width="762" height="398" alt="image" src="https://github.com/user-attachments/assets/a37e46a4-e5db-4518-ab96-cf979ea362bf" />
 
-**CPU running Task 1**
+**a. CPU running Task 1**
 
 - Task 1 code at address 0xAF200
   - Local vars: a, b, c, d in STACK1 (e.g., a at 0xAC800).
@@ -59,7 +59,7 @@
 
 <img width="751" height="404" alt="image" src="https://github.com/user-attachments/assets/16dcde99-6999-40b5-81a3-4fd0f020d4f8" />
 
-**Context Switch Triggered**
+**b. Context Switch Triggered**
 
 - A SysTick/PendSV interrupt fires → RTOS needs to switch tasks.
 - Step 1: Save Task 1’s context
@@ -73,7 +73,7 @@
 
 <img width="763" height="405" alt="image" src="https://github.com/user-attachments/assets/3954d235-819b-4c6e-adde-e4376e6d68eb" />
 
-**CPU running Task 2**
+**c. CPU running Task 2**
 
 - Task 2 code at address 0xAD200
   -Local vars: e, f, g, h in STACK2 (e.g., e at 0xAC700).
