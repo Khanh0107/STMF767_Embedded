@@ -13,7 +13,45 @@
 
 ## 2. Example 
 
-- Semaphore have not ownership: 
+- Semaphore have not ownership:
+
+ ```c
+void StartTask01(void const * argument)
+{
+  /* USER CODE BEGIN 5 */
+  /* Infinite loop */
+	mPrint("cnt semaphore: %d\n", osSemaphoreGetCount(myBinarySem01Handle));
+  while(1)
+  {
+		// Gui data vao queue 
+		osSemaphoreWait(myBinarySem01Handle,osWaitForever);
+		mPrint("Task 1 is running\n");
+		osDelay(1000);
+  }
+  /* USER CODE END 5 */
+}
+
+void StartTask02(void const * argument)
+{
+  /* USER CODE BEGIN StartTask02 */
+  /* Infinite loop */
+	
+	mPrint("cnt semaphore: %d\n", osSemaphoreGetCount(myBinarySem01Handle));
+  while(1)
+  {
+		//Nhan data
+		mPrint("Task 2 is running\n");
+		osSemaphoreRelease(myBinarySem01Handle);
+    	osDelay(1000);
+  }
+  /* USER CODE END StartTask02 */
+}
+```
+
+- Output:
+
+<img width="197" height="124" alt="image" src="https://github.com/user-attachments/assets/9dd1ded2-79f9-4ef9-a3e1-bb00cae551d0" />
+
 
 - Mutex have ownership:
 
@@ -33,13 +71,6 @@ void StartTask01(void const * argument)
   /* USER CODE END 5 */
 }
 
-/* USER CODE BEGIN Header_StartTask02 */
-/**
-* @brief Function implementing the Task02 thread.
-* @param argument: Not used
-* @retval None
-*/
-/* USER CODE END Header_StartTask02 */
 void StartTask02(void const * argument)
 {
   /* USER CODE BEGIN StartTask02 */
