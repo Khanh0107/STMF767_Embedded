@@ -2,7 +2,7 @@
 
 ## 1.1 What is UART?
 - UART (**Universal Asynchronous Receiver/Transmitter**) is a hardware communication protocol used for serial communication between two devices. It is widely used in embedded systems, microcontrollers, and computers to exchange data without the need for a clock signal.
-- UART is **half-duplex**, is a communication mode where data can travel in both directions, but only one direction at a time
+- UART is **full-duplex**, is a communication mode where data can travel in both directions, but only one direction at a time
 
 | Mode            | Direction of Data Flow            | Example                            |
 | --------------- | --------------------------------- | ---------------------------------- |
