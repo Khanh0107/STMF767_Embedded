@@ -22,6 +22,7 @@
   - If yes → request a context switch by triggering PendSV.
 
 👉 SysTick = the clock/alarm that tells the RTOS when to switch.
+
 👉 PendSV = the worker that actually performs the switch.
 
 ### 1.3. vTaskSwitchContext()
