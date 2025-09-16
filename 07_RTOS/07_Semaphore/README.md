@@ -48,3 +48,8 @@
 
 [Source](Example/main.c)
 
+- Output :
+
+<img width="210" height="218" alt="image" src="https://github.com/user-attachments/assets/f243c006-fb9c-4e25-924f-3f17da7be2cd" />
+
+
