@@ -5,11 +5,11 @@
 <img width="710" height="370" alt="image" src="https://github.com/user-attachments/assets/8955c939-433e-49ee-84cd-a207a4112e7b" />
 
 - FreeRTOS uses this **heap memory** to allocate memory task for:
-  - **Task Control Blocks (TCB)**
+  - **Task Stacks**
     - Used by the task when it is running.
     - Stores local variables, function return addresses, saved registers during context switching.
     - Each task has a separate stack, so they don’t overwrite each other.
-  - **Task Stacks**
+  - **Task Control Blocks (TCB)**
     - Task priority
     - Task state (Running, Ready, Blocked, Suspended)
     - Pointer to the stack
@@ -18,11 +18,11 @@
 
 <img width="773" height="392" alt="image" src="https://github.com/user-attachments/assets/3bfc4444-60ea-4cfd-badf-c7f30cc2ffb1" />
 
-- **Task Control Blocks (TCB)**
+- **Task Stacks** 
     - Local variables (e.g., a, b, c, d in Task1()).
     - Function call info.
     - Return addresses.
-- **Task Stacks**
+- **Task Control Blocks (TCB)s**
     - PC (Program Counter) → where the task will resume. FreeRTOS remembers exactly which line (instruction) the task was at. Later, the task continues exactly where it left off.
     - SP (Stack Pointer) → current top of the task’s stack.
     - CPU registers (R0, R1, …) → so the task can be paused and resumed later.
