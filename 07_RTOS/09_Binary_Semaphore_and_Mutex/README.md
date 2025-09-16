@@ -65,7 +65,6 @@ void StartTask01(void const * argument)
   {
 		osMutexWait(myMutex01handle,osWaitForever);
 		mPrint("Task 1 is running\n");
-		osMutexRelease(myMutex01handle);
 		osDelay(1000);   
   }
   /* USER CODE END 5 */
@@ -80,9 +79,9 @@ void StartTask02(void const * argument)
   while(1)
   {
 		//Nhan data
-		osMutexWait(myMutex01handle,osWaitForever);
 		mPrint("Task 2 is running\n");
-    osDelay(1000);
+		osMutexRelease(myMutex01handle);
+    	osDelay(1000);
   }
   /* USER CODE END StartTask02 */
 }
