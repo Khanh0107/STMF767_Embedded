@@ -13,7 +13,7 @@
 
 ## 2. Example 
 
-- Semaphore have not ownership:
+### 2.1. Semaphore have not ownership:
 
  ```c
 void StartTask01(void const * argument)
@@ -76,7 +76,7 @@ void StartTask02(void const * argument)
 - Delays 1 second.
 ✅ So Task2 is like a producer / signaler. It keeps releasing the semaphore, allowing Task1 to wake up.
 
-- Mutex have ownership:
+### 2.2. Mutex have ownership:
 
 ```c
 void StartTask01(void const * argument)
